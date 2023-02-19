@@ -12,7 +12,7 @@ jobs:
           ref: 02-solution-study-case
       
       - name: Build
-        uses: andstor/jsdoc-action@v2
+        uses: andstor/jsdoc-action@v1
         with:
           source_dir: ./assets
           recurse: true
